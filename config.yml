@@ -1,4 +1,4 @@
-baseURL: "https://ByteBust3r.github.io/"
+baseURL: "https://ByteBust3r.netlify.app/"
 title: ByteBust3r
 paginate: 5
 theme: PaperMod
@@ -44,14 +44,13 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "static/favicon.ico"
+    favicon16x16: "static/favicon-16x16.ico"
+    favicon32x32: "static/favicon-32x32.ico"
+    apple_touch_icon: "static/apple-touch-icon.png"
 
   label:
-    text: "Home"
+    text: "ByteBust3r"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
